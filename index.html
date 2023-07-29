@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* span {
+            color: green;
+            font-weight: bold;
+        } */
+    </style>
 </head>
 <body>
     <h1>HTML Foundation Lesson</h1>
@@ -13,8 +20,47 @@
         <li>Muizz - Edikaikong</li>
         <li>Patrick - Jollof rice and chicken</li>
         <li>Patrick - pounded yam and vegetable soup</li>
-      <li>Bitrus - Tere</li>
-      <li>seun - fried rice and chicken</li>
+        <li>Bitrus - Tere</li>
+        <li><a href="#seunsfood">Seun - fried rice and chicken</a></li>
     </ol>
+    <div>
+        <span id="seunsfood">This is Seuns Food</span>
+        <span id="patrick">This is Patrick's food</span>
+        <span id="fisayo">This is Fisayo's food</span>
+    </div>
+    <form>
+        <div>
+            <label>First Name</label>
+            <input type="text" id="firstName" />
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" id="lastName" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" id="email" />
+        </div>
+        <div>
+            <label>Favourite Car</label>
+            <select>
+                <option>G-Wagon</option>
+                <option>BMW</option>
+                <option>Ferrari</option>
+            </select>
+        </div>
+        <div>
+            <label>Method of delivery</label>
+            <input type="radio" name="delivery" value="belgium"/> Home Delivery
+            <input type="radio" name="delivery" value="tear_rubber"/> Port Pickup
+            <input type="radio" name="delivery" value="salvage"/> Air Drop
+        </div>
+        <div>
+            <label>Source of purchase</label>
+            <input type="checkbox" name="belgium" /> Belgium 
+            <input type="checkbox" name="new" /> Brand New
+            <input type="checkbox" name="salvage" /> Salvage
+        </div>
+    </form>
 </body>
 </html>
