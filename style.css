@@ -1,0 +1,13 @@
+span {
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+span#patrick {
+    color: orange;
+}
+
+span#fisayo {
+    color: red;
+}
